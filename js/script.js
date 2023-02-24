@@ -54,7 +54,7 @@ btnRoll.addEventListener('click', () => {
     const dice = Math.trunc(Math.random() * 6) + 1;
     
     diceElement.classList.remove('hidden');
-    diceElement.src = `dice-${dice}.png`;
+    diceElement.src = `/img/dice-${dice}.png`;
 
     if (dice !== 1 ) {
         currentScore += dice;
@@ -74,7 +74,7 @@ btnHold.addEventListener('click', () => {
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
         document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
         playing = false;
-        diceElement.src = 'win.jpg';
+        diceElement.src = `/img/you-win.png`;
     } else {
         switcher();
     }
