@@ -14,6 +14,7 @@ const diceElement = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
+const btnEditPlayerName = document.querySelector('.btn--edit');
 
 diceElement.classList.add('hidden');
 
@@ -70,7 +71,7 @@ btnHold.addEventListener('click', () => {
     scores[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
     
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
         document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
         playing = false;
@@ -82,3 +83,15 @@ btnHold.addEventListener('click', () => {
 })
 
 btnNew.addEventListener('click', init);
+
+btnEditPlayerName.addEventListener('click', ()=> {
+    let player1 = prompt("Please add a name for Player One");
+    let player2 = prompt("Please add a name for Player Two");
+
+    if (player1 === null || player2 === null) {
+        return;
+    }
+
+    document.querySelector("#name--0").innerHTML = player1;
+    document.querySelector("#name--1").innerHTML = player2;
+})
