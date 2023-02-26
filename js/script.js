@@ -85,13 +85,7 @@ btnHold.addEventListener('click', () => {
 btnNew.addEventListener('click', init);
 
 btnEditPlayerName.addEventListener('click', ()=> {
-    let player1 = prompt("Please add a name for Player One");
-    let player2 = prompt("Please add a name for Player Two");
-
-    if (player1 === null || player2 === null) {
-        return;
-    }
-
-    document.querySelector("#name--0").innerHTML = player1;
-    document.querySelector("#name--1").innerHTML = player2;
+    const names = [prompt("Please add a name for Player One"), prompt("Please add a name for Player Two")];
+    document.querySelector("#name--0").innerHTML = names[0];
+    document.querySelector("#name--1").innerHTML = names[1];
 })
