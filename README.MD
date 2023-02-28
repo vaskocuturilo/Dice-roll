@@ -22,7 +22,7 @@ You will need the following technologies available to try it out:
 ## TO-DO list (ASAP):
 
 - Add functionality for one dice :heavy_check_mark:
-- Add Add functionality for name players.
+- Add Add functionality for name players. :heavy_check_mark:
 - Add functionality for two dices.
 - Add OOP principals. 
 - Add functionality for 
