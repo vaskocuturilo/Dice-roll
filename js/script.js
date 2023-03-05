@@ -16,8 +16,6 @@ const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
 const btnEditPlayerName = document.querySelector('.btn--edit');
 
-diceElement.classList.add('hidden');
-
 let scores, currentScore, activePlayer, playing;
 
 //init
@@ -32,7 +30,7 @@ const init = () => {
     currentScorePlayerOne.textContent = 0;
     currentScorePlayerTwo.textContent = 0;
     
-    diceElement.classList.add('hidden');
+    diceElement.src = `/img/dices.gif`;
     
     sectionPlayerOne.classList.remove('player--winner');
     sectionPlayerTwo.classList.remove('player--winner');
