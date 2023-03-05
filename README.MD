@@ -29,5 +29,4 @@ You will need the following technologies available to try it out:
 - Change interface (3D)
 - Add animation
 ``` ```
-
-![](https://fastpic.org/view/121/2023/0305/_b487d8ad7f0d9664bf2cf62ec4c12c61.png.html)
+![Main window](https://fastpic.org/view/121/2023/0305/_b487d8ad7f0d9664bf2cf62ec4c12c61.png.html)
