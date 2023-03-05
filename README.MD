@@ -30,4 +30,4 @@ You will need the following technologies available to try it out:
 - Add animation
 ``` ```
 
-![](https://radikal.host/i/JShouz)
+![](https://fastpic.org/view/121/2023/0305/_b487d8ad7f0d9664bf2cf62ec4c12c61.png.html)
