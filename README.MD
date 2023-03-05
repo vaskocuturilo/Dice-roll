@@ -32,4 +32,4 @@ You will need the following technologies available to try it out:
 
 ``` ```
 
-![Main window](https://i121.fastpic.org/thumb/2023/0305/61/_b487d8ad7f0d9664bf2cf62ec4c12c61.jpeg)
+![Main window](https://i121.fastpic.org/thumb/2023/0305/75/4d390de3b2841bf2b4874b1bd6b90375.jpeg)
