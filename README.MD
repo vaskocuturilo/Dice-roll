@@ -32,4 +32,8 @@ You will need the following technologies available to try it out:
 
 ``` ```
 
+### The Web site link is 
+
+https://dice-roll-test.netlify.app/
+
 ![Main window](https://i121.fastpic.org/thumb/2023/0305/75/4d390de3b2841bf2b4874b1bd6b90375.jpeg)
