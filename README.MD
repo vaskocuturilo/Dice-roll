@@ -34,7 +34,7 @@ You will need the following technologies available to try it out:
 
 ``` npm i```
 
-``` npm run strat```
+``` npm run start```
 
 ### The Web site link is 
 
