@@ -30,7 +30,11 @@ You will need the following technologies available to try it out:
 - Add animation
 
 
-``` ```
+### How it start: 
+
+``` npm i```
+
+``` npm run strat```
 
 ### The Web site link is 
 
