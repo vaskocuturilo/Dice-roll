@@ -30,7 +30,7 @@ const init = () => {
     currentScorePlayerOne.textContent = 0;
     currentScorePlayerTwo.textContent = 0;
     
-    diceElement.src = `/img/dices.gif`;
+    diceElement.src = '/img/you-win.png';
     
     sectionPlayerOne.classList.remove('player--winner');
     sectionPlayerTwo.classList.remove('player--winner');
@@ -69,11 +69,11 @@ btnHold.addEventListener('click', () => {
     scores[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
     
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 20) {
         document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
         document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
         playing = false;
-        diceElement.src = `/img/you-win.png`;
+        diceElement.src = '/img/you-win.png';
     } else {
         switcher();
     }
