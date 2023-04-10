@@ -173,3 +173,15 @@ main {
 .hidden {
   display: none;
 }
+
+.active { background-color: #f7f7f7; }
+.active .player-name { font-weight: 300; }
+
+.active .player-name::after {
+  content: "\2022";
+  font-size: 47px;
+  position: absolute;
+  color: #4d5deb;
+  top: -7px;
+  right: 10px;
+}
