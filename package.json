@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cypress": "^12.9.0"
+  },
+  "name": "dice-roll",
+  "description": "## Requirements:",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "cypress:run:test": "live-server --port=8080 & cypress run --e2e"
+  },
+  "author": "",
+  "license": "ISC"
+}

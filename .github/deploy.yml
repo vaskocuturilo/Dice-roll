@@ -1,0 +1,27 @@
+name: Cypress Tests for https://dice-roll-test.netlify.app/
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+ Cypress-Test:
+   strategy:
+      matrix:
+        node-version: [15.x]
+        os: [ubuntu-latest, macos-latest]
+        browser: [chrome, firefox]
+         
+   runs-on: ${{ matrix.os }}
+
+   steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci --force
+      
+      - name: Run Cypress Test
+        uses: cypress-io/github-action@v4
+        with:
+         command: npm run cypress:run:test -- --browser ${{ matrix.browser }}  
