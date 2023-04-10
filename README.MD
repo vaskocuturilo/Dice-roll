@@ -23,12 +23,12 @@ You will need the following technologies available to try it out:
 
 - Add functionality for one dice :heavy_check_mark:
 - Add Add functionality for name players. :heavy_check_mark:
+- Add markers for players. 
+- Change the interface (buttons, field and background).
+- Add sound.
+- Add animation
 - Add functionality for two dices.
 - Add OOP principals. 
-- Add functionality for 
-- Change interface (3D)
-- Add animation
-
 
 ### How it start: 
 
