@@ -30,7 +30,7 @@ const init = () => {
     currentScorePlayerOne.textContent = 0;
     currentScorePlayerTwo.textContent = 0;
     
-    diceElement.src = '/img/you-win.png';
+    diceElement.src = '/img/dices.gif';
     
     sectionPlayerOne.classList.remove('player--winner');
     sectionPlayerTwo.classList.remove('player--winner');
@@ -53,7 +53,7 @@ btnRoll.addEventListener('click', () => {
     const dice = Math.trunc(Math.random() * 6) + 1;
     
     diceElement.classList.remove('hidden');
-    diceElement.src = `/img/dice-${dice}.png`;
+    diceElement.src = `/img/dice-${dice}.jpg`;
 
     if (dice !== 1 ) {
         currentScore += dice;
