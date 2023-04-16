@@ -15,8 +15,10 @@ You will need the following technologies available to try it out:
 
 * Git
 * JS
+* Parcel
 * HTML
 * CSS
+* Cypress
 * IDE of your choice
 
 ## TO-DO list (ASAP):
